@@ -3,55 +3,139 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pino Linktree</title>
+<title>PINO FT CS</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    background:#0f172a;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    padding:30px;
+background:#000;
+color:#fff;
+text-align:center;
+padding:30px 15px;
 }
+
 .profile{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    margin:auto;
-    display:block;
+width:130px;
+height:130px;
+border-radius:50%;
+object-fit:cover;
+border:3px solid #fff;
 }
+
 h1{
-    margin:15px 0 5px;
+margin-top:15px;
+font-size:35px;
 }
-p{
-    color:#bdbdbd;
+
+.location{
+margin-top:8px;
+font-size:18px;
+opacity:.8;
 }
-.link{
-    display:block;
-    background:#1e293b;
-    color:white;
-    text-decoration:none;
-    padding:15px;
-    margin:12px auto;
-    max-width:350px;
-    border-radius:12px;
-    transition:.2s;
+
+.note{
+margin-top:20px;
+font-size:16px;
+font-weight:bold;
 }
-.link:hover{
-    transform:scale(1.03);
+
+.section{
+margin-top:45px;
+font-size:32px;
+font-weight:bold;
+}
+
+.btn{
+display:flex;
+align-items:center;
+gap:15px;
+background:#000;
+border:4px solid #fff;
+border-radius:999px;
+padding:14px;
+margin:25px auto;
+max-width:700px;
+text-decoration:none;
+color:#fff;
+font-size:26px;
+font-weight:bold;
+box-shadow:12px 12px 0 #fff;
+transition:.2s;
+}
+
+.btn:hover{
+transform:translateY(-4px);
+}
+
+.btn img{
+width:65px;
+height:65px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.text{
+flex:1;
+text-align:center;
+}
+
+@media(max-width:768px){
+h1{
+font-size:24px;
+}
+
+.btn{
+font-size:18px;
+}
+
+.btn img{
+width:55px;
+height:55px;
+}
 }
 </style>
 </head>
 <body>
 
-<img class="profile" src="https://i.imgur.com/8Km9tLL.png">
+<img src="https://i.imgur.com/4M34hi2.jpeg" class="profile">
 
-<h1>PINO</h1>
-<p>Welcome To My Links</p>
+<h1>PINO FT CS</h1>
 
-<a class="link" href="https://www.tiktok.com" target="_blank">TikTok</a>
-<a class="link" href="https://www.youtube.com" target="_blank">YouTube</a>
-<a class="link" href="https://discord.com" target="_blank">Discord</a>
-<a class="link" href="https://github.com" target="_blank">GitHub</a>
+<div class="location">📍 INDONESIA</div>
+
+<div class="note">
+NOTE : LINK ERROR SALIN LINK BUKA DI CHROME
+</div>
+
+<a href="#" class="btn">
+<img src="https://i.imgur.com/4M34hi2.jpeg">
+<div class="text">SALURAN</div>
+</a>
+
+<div class="section">
+ALL LINK GB FT
+</div>
+
+<a href="#" class="btn">
+<img src="https://ibb.co.com/fd2JvfQ0">
+<div class="text">FT CS PINO #1</div>
+</a>
+
+<a href="#" class="btn">
+<img src="https://imgur.com/a/wKh1bGL.jpeg">
+<div class="text">FT CS PINO #2</div>
+</a>
+
+<a href="#" class="btn">
+<img src="https://ibb.co.com/fd2JvfQ0">
+<div class="text">FT CS PINO #3</div>
+</a>
 
 </body>
 </html>
